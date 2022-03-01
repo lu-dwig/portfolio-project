@@ -28,6 +28,8 @@
 
  * HTML - this is the basic language that i used to build the sturucture of the pages .
 
+ * CSS- used css in modifying the media display 
+
  * Bootstrap- this is what I used to style the pages including the finall layout
 
 
