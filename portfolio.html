@@ -32,15 +32,22 @@
   </div>
 
   <div class="conatiner">
-    <div class="container-fluid">
-        <div class="jumbotron">
+    <div class="container-fluid mt-5">
+        <div class="jumbotron ms-5">
           <h1 class="text-success">LUDWIG MURIMI</h1>
           <h3 class="text-danger">I am a front-end developer and a project manager</h3>
           <p class="text-info">I passionately work to serve you with solutions</p>
       </div>
-      <img class="img-circle" src="img/img(me).png" alt="personal-photo">
+      <div class="text-center mx-auto img-fluid rounded">
+        <picture>
+          <source media="(min-width:465px)" srcset="img/img(me).png">
+          <source media="(min-width:650px)" srcset="img/img(me).png">
+          <img src="img/img(me).png" class="rounded">
+        </picture>
+      </div>
+      </div>
+
     </div>
-  </div>
 
 
   <div class="container mt-4">
@@ -58,7 +65,7 @@
   </div>
 </div>
 
-  <div class="">
+  <div class="container ">
     <h3>Capabilities</h3>
     <ul>
       <li>project management</li>
